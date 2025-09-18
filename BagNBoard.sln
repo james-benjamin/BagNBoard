@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagNBoard_Web", "BagNBoard_Web\BagNBoard_Web.csproj", "{EDCC4E92-9CF9-47B5-964B-ABD37EBD19AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBroker_API", "DataBroker_API\DataBroker_API.csproj", "{D4B88F44-3BF7-4DF7-82D8-C29E4493CF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCC4E92-9CF9-47B5-964B-ABD37EBD19AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCC4E92-9CF9-47B5-964B-ABD37EBD19AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCC4E92-9CF9-47B5-964B-ABD37EBD19AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCC4E92-9CF9-47B5-964B-ABD37EBD19AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B88F44-3BF7-4DF7-82D8-C29E4493CF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B88F44-3BF7-4DF7-82D8-C29E4493CF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B88F44-3BF7-4DF7-82D8-C29E4493CF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B88F44-3BF7-4DF7-82D8-C29E4493CF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9517769-3B1D-4D05-AA23-DE8E44F4365E}
+	EndGlobalSection
+EndGlobal
