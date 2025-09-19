@@ -1,4 +1,5 @@
 using DataBroker_API.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<GcdContext>();
+builder.Services.AddDbContext<GcdContext>(options => 
+    options.UseMySql(builder.Configuration.GetConnectionString("GCD-MYSQL_CONN"),
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("GCD-MYSQL_CONN"))
+));
 
 var app = builder.Build();
 
