@@ -82,7 +82,7 @@ namespace DataBroker_API.Repository
         }
         public async Task SaveAsync()
         {
-            //await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync();
         }
     }
 }

@@ -16,6 +16,9 @@ builder.Services.AddDbContext<GcdContext>(options =>
     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("GCD-MYSQL_CONN"))
 ));
 
+builder.Services.AddDbContext<GcdContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BAG-BOARD_CONN")
+));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
